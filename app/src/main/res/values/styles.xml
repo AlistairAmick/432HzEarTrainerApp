@@ -1,0 +1,96 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Styles specific to MainActivity.java -->
+
+    <style name="ProblemNumber">
+        <!-- Styling for the problem number counter -->
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">34sp</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">0</item>
+    </style>
+
+    <style name="ButtonStyle">
+        <!--  A button style -->
+        <item name="android:layout_width">75dp</item>
+        <item name="android:layout_height">75dp</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:layout_marginBottom">16dp</item>
+        <item name="android:layout_weight">0</item>
+    </style>
+
+    <style name="UserInput">
+        <item name="android:layout_width">175dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:layout_marginBottom">24dp</item>
+        <item name="android:hint">@string/input_hint</item>
+        <item name="android:layout_weight">0</item>
+    </style>
+
+    <style name="ButtonStyle.Submit">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="ButtonStyle.Submit.Hint">
+        <item name="android:layout_alignParentBottom">true</item>
+    </style>
+
+    <style name="ButtonStyle.Radio">
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_marginLeft">16dp</item>
+    </style>
+
+    <style name="Scores">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_marginBottom">16dp</item>
+        <item name="android:layout_marginRight">24dp</item>
+    </style>
+
+    <style name="Scores.Hints">
+        <item name="android:layout_marginBottom">24dp</item>
+    </style>
+
+    <style name="RadioGroupStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+
+    <style name="RadioButtonStyle">
+        <item name="android:layout_width">120dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <!-- Styles specific to GameOverActivity.java -->
+
+    <style name="GameOverScores">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">36sp</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:padding">16dp</item>
+    </style>
+
+</resources>

@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Ear Trainer 432 Hz App</string>
+    <string name="input_hint">Enter note</string>
+
+    <string name="submit_button_string">Submit</string>
+
+    <!-- HINT BUTTONS STRINGS -->
+    <string name="hint_button_label">Hint</string>
+    <string name="hint_button_string">Only one hint per question</string>
+
+    <string name="hint1">The answer is NOT C.</string>
+    <string name="hint2">The answer is NOT F.</string>
+    <string name="hint3">The answer is NOT C.</string>
+    <string name="hint4">The answer is NOT A.</string>
+    <string name="hint5">The answer is NOT Eb.</string>
+    <string name="hint6">The answer is NOT F#.</string>
+    <string name="hint7">The answer is NOT D.</string>
+    <string name="hint8">The answer is NOT Ab.</string>
+    <string name="hint9">The answer is NOT E.</string>
+    <string name="hint10">The answer is NOT G#.</string>
+    <string name="hint11">The answer is NOT F#.</string>
+    <string name="hint12">The answer is NOT G.</string>
+
+
+    <string name="number_correct_initial">Correct: 0</string>
+    <string name="number_incorrect_initial">Incorrect: 0</string>
+    <string name="number_hints_shown_initial">Hints: 0</string>
+
+    <string name="mc_values_msg">Multiple choice values have not been shown</string>
+</resources>
